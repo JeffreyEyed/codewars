@@ -14,3 +14,7 @@
 function friend(friends){
     return friends.filter(n => n.length === 4)
   }
+
+  //or
+
+  const friend = (friends) => friends.filter(n => n.length === 4)

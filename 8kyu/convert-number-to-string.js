@@ -12,3 +12,7 @@
 function numberToString(num) {
     return num.toString()
   }
+
+  //or 
+
+  const numberToString = (num) => num.toString()
